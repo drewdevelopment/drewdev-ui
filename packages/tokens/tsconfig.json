@@ -1,0 +1,4 @@
+{
+  "extends": "@drewdev-ui/ts-config/base.json",
+  "include": ["src"]
+}
