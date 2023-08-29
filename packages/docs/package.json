@@ -34,6 +34,7 @@
     "@drewdev-ui/react": "*",
     "@drewdev-ui/tokens": "*",
     "@drewdev-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.3.2",
     "@storybook/addons": "^7.3.2",
     "@storybook/theming": "^7.3.2",
     "phosphor-react": "^1.4.1",
