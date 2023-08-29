@@ -5,7 +5,8 @@ export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    children: 'Custom Title'
+    children: 'Custom Title',
+    size: 'md'
   },
 } as Meta
 
@@ -15,6 +16,22 @@ export const CustomTag: StoryObj<HeadingProps> = {
   args: {
     children: 'Strong text',
     as: 'h1'
+  },
+  argTypes: {
+    size: {
+      options: [
+        'sm',
+        'md',
+        'lg',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+      ],
+      control: {
+        type: 'inline-radio'
+      }
+    }
   },
   parameters: {
     docs: {

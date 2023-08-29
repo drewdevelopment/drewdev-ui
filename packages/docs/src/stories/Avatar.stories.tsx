@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/drewdevelopment.png',
     alt: 'Andrew Gerez'
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
+  }
 } as Meta
 
 export const Primary: StoryObj<AvatarProps> = {}
